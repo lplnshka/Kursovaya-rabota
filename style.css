@@ -1,0 +1,91 @@
+/* Общие стили */
+body {
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для навигации */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 140px; /* Добавляем отступы слева и справа */
+    background: #3897f0;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+text-align: center;
+}
+
+/* Стили для блока салонов */
+.salon-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.salon {
+    display: flex;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.salon-info {
+    flex: 1;
+}
+
+.salon img {
+    width: 300px; /* Увеличиваем размер фотографий */
+    height: 300px; /* Увеличиваем размер фотографий */
+    object-fit: cover;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.salon h3 {
+    margin: 0 0 10px;
+    color: #262626;
+}
+
+.salon p {
+    margin: 0 0 10px;
+    color: #4a4a4a;
+}
+
+.salon .rating {
+    color: #f5a623;
+}
+
+.salon .reviews {
+    margin-top: 10px;
+}
+
+.salon .reviews p {
+    margin: 5px 0;
+    color: #4a4a4a;
+}

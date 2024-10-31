@@ -1,0 +1,75 @@
+/* Общие стили */
+body {
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    color: #262626;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #3897f0;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+    background: #357ae8;
+}
+
+.container p {
+    margin-top: 20px;
+    color: #262626;
+}
+
+.container a {
+    color: #3897f0;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+h1 {
+font-weight: 900;
+}
